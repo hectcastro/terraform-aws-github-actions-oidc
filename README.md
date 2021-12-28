@@ -6,7 +6,7 @@ Terraform module to configure Amazon Web Services (AWS) to trust GitHub's OpenID
 
 ```hcl
 module "github_actions_aws_oidc" {
-  source = "hectcastro/github-actions-oidc"
+  source = "hectcastro/github-actions-oidc/aws"
 
   github_org          = "hectcastro"
   github_repo         = "terraform-aws-github-actions-oidc"
